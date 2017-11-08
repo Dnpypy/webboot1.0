@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'UbuntuB';
+    src: url('fonts/UbuntuB.eot');
+    src: url('fonts/UbuntuB.eot') format('embedded-opentype'),
+         url('fonts/UbuntuB.woff2') format('woff2'),
+         url('fonts/UbuntuB.woff') format('woff'),
+         url('fonts/UbuntuB.ttf') format('truetype'),
+         url('fonts/UbuntuB.svg#UbuntuB') format('svg');
+}
+
+@font-face {
+    font-family: 'UbuntuM';
+    src: url('fonts/UbuntuM.eot');
+    src: url('fonts/UbuntuM.eot') format('embedded-opentype'),
+         url('fonts/UbuntuM.woff2') format('woff2'),
+         url('fonts/UbuntuM.woff') format('woff'),
+         url('fonts/UbuntuM.ttf') format('truetype'),
+         url('fonts/UbuntuM.svg#UbuntuM') format('svg');
+}
+
+@font-face {
+    font-family: 'UbuntuR';
+    src: url('fonts/UbuntuR.eot');
+    src: url('fonts/UbuntuR.eot') format('embedded-opentype'),
+         url('fonts/UbuntuR.woff2') format('woff2'),
+         url('fonts/UbuntuR.woff') format('woff'),
+         url('fonts/UbuntuR.ttf') format('truetype'),
+         url('fonts/UbuntuR.svg#UbuntuR') format('svg');
+}
+
+
+section#main {
+	padding-top: 20px;
+	height: 1335px;
+	background: url(../img/main-bg.jpg) no-repeat center center;
+}
+
+.phone h3 {
+	color: #fff;
+	font-family:'UbuntuM' ;
+
+}
+
+.phone a:hover {
+	text-decoration: none;
+	
+}
+
+.phone p {
+	color: #fff;
+	font-family:'UbuntuR' ;
+}
+
+.social img {
+	width: 40px;
+}
+
+.social {
+	padding-top: 10px;
+	padding-left: -20px;
+}
+
+.header h1 {
+	color: #fff;
+	font-family: 'UbuntuB';
+	text-transform: uppercase;
+	margin-top: 130px;
+}
+
+.header-form h2 {
+	font-family:'UbuntuM' ;
+	color: #A60436;
+	
+}
+
+.main-form {
+	background-color: rgba(255, 255, 255, 0.47);
+	padding-bottom: 30px;
+}
+
+.main-form input {
+	width: 80%;
+	padding: 10px;
+
+	-webkit-border-radius: 5px;
+	 -moz-border-radius: 5px;
+	 -ms-border-radius: 5px;
+	 -o-border-radius: 5px;
+	 border-radius: 5px; 
+	
+}
