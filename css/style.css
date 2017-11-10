@@ -248,10 +248,78 @@ section#footer {
 	border-radius: 5px; 
 }
 
+/* ❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄ КАРУСЕЛЬ  ❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄*/
+
+section#feedback {
+	padding-top: 12px;
+	padding-bottom: 50px;
+}
+
+.item {
+       
+    text-align: center;
+    
+}
+            
+.carousel{
+    margin-top: 20px;
+}
+
+.carousel-control.left {
+	background-image: none;
+}
+
+.carousel-control.right {
+	background-image: none;
+}
+
+.carousel-control {
+	color: #333333;
+}
+
+.carousel-control:hover {
+	color: #000;
+}
+
+.carousel-indicators {
+	bottom: -34px ;
+}
+
+.carousel-indicators li  {
+	margin-top: 20px;
+	border: 1px solid #000;
+	
+}
+
+.carousel-indicators li.active  {
+	margin-top: 20px;
+	border: 1px solid #000;
+	background-color: #000;
+}
+
+
+.avatar {
+	width: 95px;
+	display: block;
+	margin: 0 auto;
+}
+
+/* ❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄ МОдальное окно  ❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄*/
+
+button.btn-send {
+	background-color: #a60436;
+}
+
+
 /* ❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄ Адаптив  ❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄*/
 
 @media(min-width: 0) and (max-width: 320px) {
 	
+	section#main {
+		background: url(../img/mobile-bg.jpg) no-repeat center top;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
 
 	.logo  {
 		text-align: center;
